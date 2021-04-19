@@ -2,13 +2,10 @@ OpenTok.js Basic Sample
 =======================
 
 This sample application shows how to connect to an OpenTok session, publish a stream,
-subscribe to a stream, and mute audio.
+subscribe to a stream, optimised for the new Participant Pricing.
 
 ## Demo
 
-You can see a demo of this sample running at [opentok.github.io/opentok-web-samples/Basic%20Video%20Chat/](https://opentok.github.io/opentok-web-samples/Basic%20Video%20Chat/)
-
-> **Note** The demo is setup so that a new room is generated based on your public IP address. So will only work if you are connecting from 2 browsers on the same network.
 
 ## Running the App
 
