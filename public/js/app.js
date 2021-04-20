@@ -14,7 +14,7 @@ function handleError(error) {
 function handlePublisher() {
   console.log("[handlePublish]", connectionCount);
   if (!isPublishing && connectionCount === 1) {
-    // publish twice the same stream explode everything
+    // todo publish twice the same stream explode everything
     session.publish(publisher, handleError);
   } else if (connectionCount === 0 && publisher) {
     session.unpublish(publisher);
@@ -81,8 +81,6 @@ function initializeSession() {
     if (error) {
       handleError(error);
     } else {
-      // If the connection is successful, publish the publisher to the session
-      // todo session.publish(publisher, handleError);
       console.log("Session Connected");
     }
   });
