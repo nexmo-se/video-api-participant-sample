@@ -1,0 +1,6 @@
+{
+    "name": "Vonage Video API - Participant Model",
+    "description": "A sample app showing the Participant Model for Vonage VIdeo API",
+    "repository": "https://github.com/nexmo-se/video-api-participant-sample",
+    "logo": "https://node-js-sample.herokuapp.com/node.png"
+  }
